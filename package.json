@@ -1,0 +1,30 @@
+{
+  "name": "recipeapi",
+  "version": "1.0.0",
+  "description": "API for user authentication and user can perform CRUD operation on recipe API",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanchalS7/recipeAPI.git"
+  },
+  "author": "ChanchalS7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChanchalS7/recipeAPI/issues"
+  },
+  "homepage": "https://github.com/ChanchalS7/recipeAPI#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "slugify": "^1.6.6"
+  }
+}
